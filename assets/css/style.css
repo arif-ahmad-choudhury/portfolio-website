@@ -45,8 +45,7 @@ background-position:center;
 	color:#fff;
 	text-transform: capitalize;
 	font-size: 55px;
-	font-weight: bold;
-	padding-bottom:200px;
+	font-weight: bold;	
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
@@ -54,7 +53,7 @@ background-position:center;
 
 .ityped{
 	position: absolute;
-	font-size:35px;
+	font-size:30px;
 	color:#D4133A;
 	
 }
@@ -462,6 +461,15 @@ img{
 	padding: 30px;
 	margin-bottom: 25px;
 	position: relative;
+}
+.single-portfolio h6{
+	color:black;
+}
+.single-portfolio{
+	transition:transform .5s ease;
+}
+.single-portfolio:hover{
+	transform: scale(1.1) rotate(5deg);
 }
 .single-portfolio  i {
 	font-size: 60px;

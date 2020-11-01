@@ -16,18 +16,19 @@
 			}
 		}
 	);
-	// ityped 
+		// typed Text
 	var typed = new Typed('.ityped', {
 		strings: [
-			'I Am  Web Developer',
+			' I Am  Web Developer',
 			 'I Am Front End Developer',
 			 'I Am Web Designer',
 			 'I Am Graphic Designer',
 			 'I Am Logo Designer',
 			 'I Am Freelancer'
 			],
-			typeSpeed:60,
-			backSpeed:60,
+			typeSpeed:60,	
+			backSpeed:60,	
+			cursorChar: "",			
 			loop: true
 	  });
     
