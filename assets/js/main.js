@@ -15,7 +15,21 @@
 				enabled:true
 			}
 		}
-    );
+	);
+	// ityped 
+	var typed = new Typed('.ityped', {
+		strings: [
+			'I Am  Web Developer',
+			 'I Am Front End Developer',
+			 'I Am Web Designer',
+			 'I Am Graphic Designer',
+			 'I Am Logo Designer',
+			 'I Am Freelancer'
+			],
+			typeSpeed:60,
+			backSpeed:60,
+			loop: true
+	  });
     
     // Magnific Video
 	$('.video-link').magnificPopup(
@@ -41,17 +55,7 @@
 		navText:['<i class="fas fa-long-arrow-alt-left"></i>','<i class="fas fa-long-arrow-alt-right"></i>']
 	});
 
-	// Testimonial Slider Js
-	$(".testimonial").owlCarousel({
-		items:3,
-		margin:30,
-		loop:true,
-		mouseDrag:false,
-		autoplay:true,
-		center:true,
-		nav:true,
-		navText:['<i class="fas fa-long-arrow-alt-left"></i>','<i class="fas fa-long-arrow-alt-right"></i>']
-	});
+	
 
 
 	jQuery(window).load(function () {
